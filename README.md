@@ -8,7 +8,9 @@
     - pillow
     - numpy
 
-- `res` in current directory
+```bash
+git clone git@github.com:poly000/choyen_font_res.git --depth 1 res
+```
 
 ## Credit
 
