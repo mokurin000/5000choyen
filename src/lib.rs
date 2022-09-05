@@ -7,7 +7,7 @@ pub fn generate_5000choyen(
     top: &str,
     bottom: &str,
     file: &PathBuf,
-) -> Result<(), Box<dyn std::error::Error>> {
+) -> Result<(), Box<dyn std::error::Error + Sync + Send>> {
     Python::with_gil(|py| {
         let generator = PyModule::from_code(py, choyen_5000::CODE, "", "").unwrap();
 

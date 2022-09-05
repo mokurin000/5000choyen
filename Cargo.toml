@@ -2,7 +2,7 @@
 license = "AGPL-3.0"
 authors = ["poly000"]
 name = "choyen_5000"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 repository = "https://github.com/poly000/5000choyen"
 description = "wrapper for python 5000choyen generator"
