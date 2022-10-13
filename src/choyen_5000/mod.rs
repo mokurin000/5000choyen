@@ -260,5 +260,5 @@ def genImage(word_a="5000兆円", word_b="欲しい!", default_width=1500, heigh
     return final_image
 
 def genImage_to(word_a, word_b, path):
-    genImage(word_a, word_b).save(path)
+    genImage(word_a, word_b, bg=(0,0,0,0)).save(path)
 "#;
