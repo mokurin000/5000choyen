@@ -254,7 +254,7 @@ def genImage(word_a="5000兆円", word_b="欲しい!", default_width=1500, heigh
 
     croprange = previmg.getbbox()
     img = previmg.crop(croprange)
-    final_image = Image.new("RGB", (img.size[0] + 100, img.size[1] + 100), bg)
+    final_image = Image.new("RGBA", (img.size[0] + 100, img.size[1] + 100), bg)
     final_image.paste(img, (50, 50))
 
     return final_image
